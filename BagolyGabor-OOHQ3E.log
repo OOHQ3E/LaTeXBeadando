@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.11)  3 DEC 2022 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.11)  3 DEC 2022 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -702,7 +702,7 @@ nput line 134.
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-75.
+74.
  (c:/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [11
@@ -737,10 +737,10 @@ b><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2022
 /texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/t
 ype1/public/lm/lmtt12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
-Output written on BagolyGabor-OOHQ3E.pdf (11 pages, 561213 bytes).
+Output written on BagolyGabor-OOHQ3E.pdf (11 pages, 561919 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 231 compressed objects within 3 object streams
+ 277 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
  69 named destinations out of 1000 (max. 500000)
  100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
