@@ -45,11 +45,11 @@ A választott szakdolgozati témám a \emph{Programozható elektronikák alkalma
 Az eszközökkel például világítást, fűtést is lehet vezérelni, akár automatikusan. Az eszközök különböző féle programozható elektronikák segítségével lesznek megvalósítva. Célom az lenne ezzel, hogy belelássak az okos otthonok működésébe, különböző programozható eszközök alkalmazását jobban megismerjem, és, hogy egy olyan általános kezelőfelületet tudjak létrehozni, amit könnyen tud a felhasználó alkalmazni. Az okos otthon részről pedig majd \aref{smarthomeChapter}.~fejezetnek \pageref{smarthomeChapter}.~oldalától lehet majd többet megtudni, ahol megmutatom azt is, hogy C++ programozási nyelvet használva hogyan olvasom be és, írom ki egy hőmérséklet és páratartalom szenzor által mért adatokat.
 
 \section{Az Arduino platform}
-	Az Arduino egy széleskörűen elterjedt, nyílt forrású fejlesztőplatform. Az Arduino-t oktatási céllal hozták létre, de előszeretettel használják otthoni projektekhez, a kisebb automatizálási feladatoktól kezdve az okos otthonok kialakításáig. Ezek mellett ma már az ipari alkalmazások sem ritkák és rengeteg IOT eszköznek is az alapja.
+	Az Arduino egy széleskörűen elterjedt, nyílt forrású fejlesztőplatform. Az Arduino-t oktatási céllal hozták létre, de előszeretettel használják otthoni projektekhez, a kisebb automatizálási feladatoktól kezdve az okos otthonok kialakításáig. Ezek mellett ma már az ipari alkalmazások sem ritkák és rengeteg IoT\footnote{\Aref{iotSection} szakaszon van kifejtve.} eszköznek is az alapja.
 	Az Arduino platform része egy elektronikai áramköri lap és a szoftveres környezet. Maga az áramköri lap nagyon sokféle felépítésben megtalálható.
 
 \section{Arduino UNO felépítése és tulajdonságai}\label{arduinoUnoSection}
-Az egyik legelső és leginkább elterjedt áramkör az Arduino UNO.
+Az egyik legelső és leginkább elterjedt áramkör az \emph{Arduino UNO}.
 
 \begin{figure}[ht!]
 	\centering
@@ -58,7 +58,7 @@ Az egyik legelső és leginkább elterjedt áramkör az Arduino UNO.
 	\label{fig-arduinoUno}
 \end{figure}
 
-Az Arduino áramkörök leglényegesebb alkatrésze a mikrovezérlő. Az \emph{UNO} esetében ez egy \emph{ATmega328/P} típusú, 8 bites mikrovezérlő. A mikrovezérlő egy integrált áramkör (IC, chip), amiben a processzor és a memória mellett számos egyéb periféria is megtalálható. A legfontosabb perifériák egy általános mikrovezérlőben a következők lehetnek: időzítő áramkörök, analóg és digitális be- és kimenetek, kommunikációs perifériák és még sok egyéb. Ilyen mikrovezérlőkből egyre több található meg a minket körülvevő hétköznapi használati tárgyainkban is, háztartási kis- és nagy gépekben például: mosógépben, digitális órában, távirányítóban, mobiltelefonban. Segítségükkel mérhetjük szenzorok jelét, beolvashatjuk nyomógombok állapotát, vezérelhetünk velük LED-eket, motorokat, kommunikálhatunk más áramkörökkel és még sok egyéb feladatra használhatók.
+Az Arduino áramkörök leglényegesebb alkatrésze a mikrovezérlő. Az \emph{UNO} esetében ez egy \emph{ATmega328/P} típusú, 8\,bites mikrovezérlő. A mikrovezérlő egy integrált áramkör (IC, chip), amiben a processzor és a memória mellett számos egyéb periféria is megtalálható. A legfontosabb perifériák egy általános mikrovezérlőben a következők lehetnek: időzítő áramkörök, analóg és digitális be- és kimenetek, kommunikációs perifériák és még sok egyéb. Ilyen mikrovezérlőkből egyre több található meg a minket körülvevő hétköznapi használati tárgyainkban is, háztartási kis- és nagy gépekben például: mosógépben, digitális órában, távirányítóban, mobiltelefonban. Segítségükkel mérhetjük szenzorok jelét, beolvashatjuk nyomógombok állapotát, vezérelhetünk velük LED-eket, motorokat, kommunikálhatunk más áramkörökkel és még sok egyéb feladatra használhatók.
 
 Az \emph{Arduino UNO} áramköri lap szerepe, hogy a rajta elhelyezett mikrovezérlőnek a lábai ki vannak vezetve egy kényelmesen hozzáférhető és könnyen használható csatlakozókra, valamint megtalálható rajta a mikrovezérlő működéséhez és programozásához szükséges egyéb alkatrészek.
 
@@ -91,11 +91,11 @@ A csatlakozókhoz kényelmesen köthetünk szenzorokat, digitális IC-ket és eg
 
 Az feszültségszintekre és áramkorlátokra nagyon figyelni kell az Arduino használata során. Csak egyforma feszültségszinteken üzemelő áramköröket szabad összekapcsolni, az áramerősségeket pedig a számolás során kapott értéknek megfelelő, sorba kapcsolt ellenállással lehet a maximális megengedett érték alatt tartani.
 
-Az Arduino-hoz számos ,,feltét'' áramkör is kapható, amiket Arduino shield-eknek neveznek. Ezeknek az áramköri lapoknak az az előnye, hogy egyszerűen, egyetlen mozdulattal rá lehet helyezni az Arduino-ra és máris kiegészítettük az Arduino-t valamilyen hasznos funkcióval. A kompatibilitásra figyelni kell, mert léteznek 3,3\,V tápfeszültséget igénylő shieldek, amik tönkremehetnek az 5~V-os jelszintet használó \emph{Arduino UNO}-tól.
+Az Arduino-hoz számos ,,feltét'' áramkör is kapható, amiket Arduino shield-eknek neveznek. Ezeknek az áramköri lapoknak az az előnye, hogy egyszerűen, egyetlen mozdulattal rá lehet helyezni az Arduino-ra és máris kiegészítettük az Arduino-t valamilyen hasznos funkcióval. A kompatibilitásra figyelni kell, mert léteznek 3,3\,V tápfeszültséget igénylő shieldek, amik tönkremehetnek az 5\,V-os jelszintet használó \emph{Arduino UNO}-tól.
 További Arduino eszközről az alábbi könyvben tudhat meg többet.\cite[8--12.oldal]{arduinoBook}
 
 \chapter{IoT eszközök alkalmazása okos otthonban}\label{smarthomeChapter}
-\section{IoT eszközök}
+\section{IoT eszközök}\label{iotSection}
 Manapság számos kis és nagy háztartási készülék és gép érhető el okos kivitelben. Ezek úgynevezett IoT (Internet of Things) eszközök, amelyek az otthoni WiFi hálózaton keresztül egyszerűen párosíthatóak az adott gyártói applikációval. Erre azért van szükség, hogy a lehető legtöbb okos funkciót ki tudjuk használni, illetve esetleges firmware frissítéseket el tudjunk végezni. Ezzel a módszerrel azonban szinte minden márkához és eszközhöz külön applikációt kell használni, ezáltal egyfajta szigetüzem jön létre.
 
 Manapság már beszerezhető például okos WiFi-s mosógép, ahol külön alkalmazáson keresztül nyomon követhetjük, mikor jár le a mosás. De automatizációval előre meghatározott időpontban is elindíthatjuk a mosógépet. Ha nem vagyunk otthon a vízérzékelők figyelik, hogy nincs-e probléma, és szükség esetén gondoskodnak a víz elzárásáról.

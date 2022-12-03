@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.11)  3 DEC 2022 20:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.11)  3 DEC 2022 20:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -672,7 +672,7 @@ Package pdftex.def Info: eszterhazy-logo-hu.pdf  used on input line 39.
 
 ]
 1. fejezet.
-<arduinoUno.jpg, id=70, 308.352pt x 231.6655pt>
+<arduinoUno.jpg, id=72, 308.352pt x 231.6655pt>
 File: arduinoUno.jpg Graphic file (type jpg)
 <use arduinoUno.jpg>
 Package pdftex.def Info: arduinoUno.jpg  used on input line 56.
@@ -680,7 +680,7 @@ Package pdftex.def Info: arduinoUno.jpg  used on input line 56.
 [3
 
 ]
-<arduinoUnoFelepites.png, id=77, 770.88pt x 463.7325pt>
+<arduinoUnoFelepites.png, id=83, 770.88pt x 463.7325pt>
 File: arduinoUnoFelepites.png Graphic file (type png)
 <use arduinoUnoFelepites.png>
 Package pdftex.def Info: arduinoUnoFelepites.png  used on input line 77.
@@ -713,13 +713,13 @@ Package rerunfilecheck Info: File `BagolyGabor-OOHQ3E.out' has not changed.
 (rerunfilecheck)             Checksum: 7E20DEDF202C465085ADF01C079907DA;1505.
  ) 
 Here is how much of TeX's memory you used:
- 16937 strings out of 475075
- 268083 string characters out of 5783001
+ 16939 strings out of 475075
+ 268106 string characters out of 5783001
  920760 words of memory out of 5000000
- 37920 multiletter control sequences out of 15000+600000
+ 37921 multiletter control sequences out of 15000+600000
  551905 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,81p,998b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,81p,999b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2022/tex
 mf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2022/texmf-dist/fonts/enc/
 dvips/lm/lm-rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
@@ -737,10 +737,10 @@ b><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2022
 /texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/t
 ype1/public/lm/lmtt12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
-Output written on BagolyGabor-OOHQ3E.pdf (11 pages, 560857 bytes).
+Output written on BagolyGabor-OOHQ3E.pdf (11 pages, 561213 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 228 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
+ 69 named destinations out of 1000 (max. 500000)
  100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
