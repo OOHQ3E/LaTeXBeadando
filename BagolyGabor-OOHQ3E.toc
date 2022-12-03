@@ -1,0 +1,8 @@
+\select@language {magyar} \contentsline {chapter}{\numberline {1}Bevezetés}{3}{chapter.1}%
+\select@language {magyar} \contentsline {section}{\numberline {1.1}Az Arduino platform}{3}{section.1.1}%
+\select@language {magyar} \contentsline {section}{\numberline {1.2}Arduino UNO felépítése és tulajdonságai}{3}{section.1.2}%
+\select@language {magyar} \contentsline {chapter}{\numberline {2}IoT eszközök alkalmazása okos otthonban}{6}{chapter.2}%
+\select@language {magyar} \contentsline {section}{\numberline {2.1}IoT eszközök}{6}{section.2.1}%
+\select@language {magyar} \contentsline {section}{\numberline {2.2}Okos otthon}{8}{section.2.2}%
+\select@language {magyar} \contentsline {subsection}{\numberline {2.2.1}Okos otthon kiépítése}{9}{subsection.2.2.1}%
+\select@language {magyar} \contentsline {chapter}{Irodalomjegyz\'ek}{11}{chapter*.3}%
