@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.11)  4 DEC 2022 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.11)  4 DEC 2022 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -709,8 +709,14 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ]
 (./BagolyGabor-OOHQ3E.aux)
-Package rerunfilecheck Info: File `BagolyGabor-OOHQ3E.out' has not changed.
-(rerunfilecheck)             Checksum: 7E20DEDF202C465085ADF01C079907DA;1505.
+
+Package rerunfilecheck Warning: File `BagolyGabor-OOHQ3E.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `BagolyGabor-OOHQ3E.out':
+(rerunfilecheck)             Before: CD022395E7BE6A13D56B2388DED9160E;1513
+(rerunfilecheck)             After:  7E20DEDF202C465085ADF01C079907DA;1505.
  ) 
 Here is how much of TeX's memory you used:
  16939 strings out of 475075
@@ -737,7 +743,7 @@ b><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2022
 /texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/t
 ype1/public/lm/lmtt12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
-Output written on BagolyGabor-OOHQ3E.pdf (11 pages, 561919 bytes).
+Output written on BagolyGabor-OOHQ3E.pdf (11 pages, 561921 bytes).
 PDF statistics:
  277 PDF objects out of 1000 (max. 8388607)
  232 compressed objects within 3 object streams
