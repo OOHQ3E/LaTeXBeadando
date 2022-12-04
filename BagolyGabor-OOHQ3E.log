@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.11)  3 DEC 2022 21:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.11)  4 DEC 2022 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,7 +715,7 @@ Package rerunfilecheck Info: File `BagolyGabor-OOHQ3E.out' has not changed.
 Here is how much of TeX's memory you used:
  16939 strings out of 475075
  268106 string characters out of 5783001
- 920760 words of memory out of 5000000
+ 920855 words of memory out of 5000000
  37921 multiletter control sequences out of 15000+600000
  551905 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
